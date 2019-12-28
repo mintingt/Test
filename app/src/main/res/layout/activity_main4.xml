@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main4Activity">
+    <TextView
+        android:text="Android应用程序开发"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+    <TextView
+        android:text="Android是一个优秀的开发源平台，
+        本课程由浅入深人地介绍了Android应用程序开发，内容分为11章
+        包括安卓的简介，开发环境，应用程序、安卓的生命周期和用户界面，组件通信与广播消息，后台服务，，数据 存储与访问，位置服务与地图应用，Android NDK开发心腹综合示例设计与开发。"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        />
+
+</LinearLayout>

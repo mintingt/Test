@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录界面"
+        android:textSize="40dp"
+        android:gravity="center"
+
+        />
+    <EditText
+        android:id="@+id/Et_zh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入账号"
+        android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/ET_mm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:textSize="25dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Bt_login"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            />
+        <Button
+            android:id="@+id/Bt_tc"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="退出"
+            />
+    </LinearLayout>
+
+</LinearLayout>
